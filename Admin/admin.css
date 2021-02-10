@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 100px 0 50px 100px;
+}
+
+button {
+    width: 100px;
+    cursor: pointer;
+}
+
+#blogListContainer {
+    margin-left: 50px;
+    width: 150vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+}
+
+.blogs {
+    padding: 1rem;
+    width: 95%;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.blogs img {
+    width: 100px;
+}
+
+.hiddenDesc{
+    width: 100vh;
+}
+
+#desc {
+    width: 300px;
+}
+
+#addbtn {
+    width: 80px;
+}

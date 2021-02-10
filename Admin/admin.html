@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./admin.css">
+    <title>Blog website admin</title>
+</head>
+<body>
+    <form action="">
+        <label for="title">title</label>
+        <input type="text" name="title" id="title">
+        <label for="imgUrl">imgUrl</label>
+        <input type="text" name="imgUrl" id="imgUrl">
+        <label for="desc">description</label>
+        <input type="text" name="desc" id="desc">
+        <button type='button' id="addbtn">Add Blog</button>
+    </form>
+    <div id="blogListContainer">
+        <div class="blogs">
+            <img src="https://i.pinimg.com/originals/8f/3a/4c/8f3a4c6ce8074cec00a1ba7c93c766c6.jpg" alt="">
+            <div class="titleContainer">H2R</div>
+            <div class="hiddenDesc">Kawasaki Ninja H2 is a "supercharged supersport" class motorcycle in the Ninja sportbike series, manufactured by Kawasaki Heavy Industries, featuring a variable-speed centrifugal-type supercharger. The track-only variant is called Ninja H2R, and it is the fastest and most powerful production motorcycle on the market; it produces a maximum of 310 horsepower (230 kW) and 326 horsepower (243 kW) with ram air. The H2R has 50% more power than the fastest street-legal motorcycles, while the street-legal Ninja H2 has a lower power output of 200 hp (150 kW)–210 hp (160 kW) with ram air.</div>
+            <button class="deleteBtn">delete</button>
+        </div>
+    </div>
+
+    <script src="./admin.js"></script>
+</body>
+</html>

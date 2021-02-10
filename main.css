@@ -66,16 +66,21 @@ footer a:hover {
 
 #blogListContainer {
     height: 88%;
-    background-color: rebeccapurple;
+    background-color: #a29bfe;
 }
 
 .moreBlog {
     height: 3%;
-    background-color: rgb(76, 40, 112);
+    background-color: #9189ff;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+.moreBlog:hover {
+    background-color: #7a70ff;
+    transition: 300ms;
 }
 
 #addBtn {
@@ -159,4 +164,14 @@ footer a:hover {
 
 #img img {
     width: 60vh;
+}
+
+#addBtnA {
+    text-decoration: none;
+    color: black;
+}
+
+#addBtnA:hover {
+    color: #f86909;
+    transition: 300ms;
 }
