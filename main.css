@@ -67,6 +67,9 @@ footer a:hover {
 #blogListContainer {
     height: 88%;
     background-color: #a29bfe;
+    border-top: 3px solid orangered;
+    border-right: 3px solid orangered;
+    border-left: 3px solid orangered;
 }
 
 .moreBlog {
